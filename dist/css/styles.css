@@ -1,0 +1,60 @@
+.the-hive-gaming {
+  background-color: #f2f1e8;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.the-hive-gaming .the-hive-logo {
+  max-width: 600px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.the-hive-gaming h1 {
+  margin: 0;
+}
+
+.the-hive-gaming .the-hive-logo img {
+  width: 100%;
+}
+
+.the-hive-gaming .intro-text {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.the-hive-gaming .intro-text p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.the-hive-gaming .important-links {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.the-hive-gaming .important-links .important-link {
+  font-size: 2rem;
+  color: #a03b3e;
+  text-decoration: none;
+}
+.the-hive-gaming .important-links .important-link:hover {
+  color: #66a6ad;
+  text-decoration: underline;
+}
+
+.the-hive-footer {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.75rem;
+}
