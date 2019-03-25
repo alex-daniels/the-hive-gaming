@@ -58,3 +58,13 @@
   margin: 0 auto;
   font-size: 0.75rem;
 }
+
+.bios-header {
+  color: #000;
+  font-size: 1.75rem;
+}
+
+.bios .bio .name {
+  color: #66a6ad;
+  font-size: 1.5rem;
+}
