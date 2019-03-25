@@ -6,14 +6,22 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
   </head>
   <body class="the-hive-gaming static frontpage">
     <header class="the-hive-header">
       <h1><a href="/" class="the-hive-logo"><img src="./img/the_hive_logo.png" alt="The Hive Gaming Logo"></a></h1>
     </header>
-    <section class="embedded-stream">
-        <iframe class="iframe-src" src="https://player.twitch.tv/?channel=the_hive_games" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620" />
-    </section>
+    <div id="twitch-embed"></div>
+    <script type="text/javascript">
+      var options = {
+        width: 700,
+        height: 427,
+        channel: "the_hive_games"
+      };
+      var player = new Twitch.Player("twitch-embed", options);
+      player.setVolume(0.5);
+    </script>
     <section class="important-links">
       <h2><a href="https://www.twitch.tv/the_hive_games" class="important-link" target="_blank">Twitch</a></h2>
       <h2><a href="https://twitter.com" class="important-link" target="_blank">Twitter</a></h2>
